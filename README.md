@@ -1,5 +1,5 @@
 # gpu-glyph
-An evaluation framework for glyph rendering algorithms on the GPU.
+An evaluation framework in pure, modern C (C17/C18) for glyph rendering algorithms on the GPU.
 
 ## What is this for?
 This is a personal project to be used for validating and benchmarking different
@@ -16,6 +16,11 @@ via winding as explained by Evan Wallace in
 direct glyph render to texture, texture atlases, and other techniques will be
 explored and evaluated via comparison. I will also be evaluating differences in
 techniques of glyph caching vs. direct interpolation and rendering.
+
+## Dependencies
+This project makes use of the following libraries.
+- freetype2
+- GLFW
 
 ## Usage
 Currently the framework doesn't have the various algorithms for evaluation
